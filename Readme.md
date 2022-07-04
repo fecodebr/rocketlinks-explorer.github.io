@@ -16,7 +16,7 @@
 
   # 💻 Objetivo
 
-  Divulgar em um único link vários links.
+  Divulgar em um único link com vários links.
 
   
 
