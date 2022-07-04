@@ -4,7 +4,7 @@
 
 
 
-![front-social](C:\Users\felip\Desktop\link-tree\front-social.png)
+<img src="https://i.imgur.com/2UlOyZi.png">
 
 ## 🪒 Ferramentas
 
