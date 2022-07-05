@@ -1,98 +1,89 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
 }
 
-:root {
-  --hue: 230;
-  --primary: hsl(var(--hue), 81%, 60%);
-  --primaryDark: hsla(var(--hue), 100%, 9%);
-  --primarylight: hsla(var(--hue), 100%, 9%, 0.8);
-  --primaryHover: hsl(var(--hue), 81%, 50%);
-  --robotoMono: 'Roboto Mono', monospace;
+a {
+  text-decoration: none;
 }
-
 
 body {
-  min-height: 100vh;
-  background-color: #E5E5E5;
+  background: #EDF2FF;
   font-family: 'Roboto', sans-serif;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
-#userAvatar {
-  display: block;
-  margin: 0 auto;
-  width: 100px;
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
 
-  border: 4px solid var(--primary);
+img {
+  width: 100%; 
+}
+
+img.avatar {
   border-radius: 50%;
-
-  padding: 4px;
-  box-sizing: content-box;
-  background-color: white;
-  margin-bottom: 14px;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: #4263EB solid 4px;
 }
 
-#userName {
-  color: var(--primaryDark);
+h1 {
   font-size: 32px;
+  color: #00082F;
+  margin-top: 24px;
   margin-bottom: 8px;
 }
 
-#userTag {
-  color: var(--primarylight);
+.username {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: #00082F;
+  opacity: 0.8;
   font-size: 18px;
-  font-family: var(--robotoMono);
-
-  margin-bottom: 48px;
 }
 
-.linksList {
+ul {
   list-style: none;
-  margin-bottom: 32px;
+  margin: 48px 0;
 }
 
-.linksList .linkButton {
-  width: 300px;
-  height: 60px;
-  border-radius: 6px;
-
+ul li a {
+  height: 53px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  
-  cursor: pointer;
+  justify-content: center;
+  background: #4263EB; /* hex: 0 - F */
   color: white;
-  font-size: 14px;
-  font-weight: 700;
-  text-decoration: none;
   text-transform: uppercase;
+  font-size: 14px;
 
   margin-bottom: 16px;
-  background-color: var(--primary);
+  border-radius: 6px;
 
-  transition: background-color .2s;
+  transition: background 400ms;
 }
 
-.linksList .linkButton:hover {
-  background-color: var(--primaryHover);
+/* pseudo-class */
+ul li a:hover {
+  background: #364FC7;
 }
 
 footer {
-  color: hsla(var(--hue), 100%, 9%, 0.6);
-  font-size: 12px;
   font-weight: 500;
+  font-size: 12px;
+  color: #00082F;
   opacity: 0.6;
   transition: opacity 400ms;
 }
 
 footer:hover {
   opacity: 1;
+}
+
+footer a{
+  color: #00082F;
 }
