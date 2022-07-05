@@ -14,13 +14,13 @@
 
   
 
-  # 💻 Objetivo
+## 💻 Objetivo
 
-  Divulgar em um único link com vários links.
+  Divulgar em um único link vários links.
 
   
 
-  ## © Créditos e projeto
+## © Créditos e projeto
 
   **[Maratona Explorer 2.0](https://lp.rocketseat.com.br/inscricao/maratona-explorer)** realizada pela **[@Rocketseat 🌠](https://github.com/Rocketseat)**.
 
