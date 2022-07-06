@@ -17,6 +17,8 @@
 ## 💻 Objetivo
 
   Divulgar em um único link vários links.
+  
+  *Obs: ainda farei alguns ajustes e atualizações em breve.*
 
   
 
