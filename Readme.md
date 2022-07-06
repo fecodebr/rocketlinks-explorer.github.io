@@ -5,7 +5,7 @@
 
 <div align="center">
 <img src="https://i.imgur.com/yLqdEA1.png" alt="imagem do projeto">
-<center>
+</div>
   
 ## 🪒 Ferramentas
 
