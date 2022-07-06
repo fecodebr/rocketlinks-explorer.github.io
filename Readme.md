@@ -4,7 +4,7 @@
 
 
 
-<img src="https://i.imgur.com/2UlOyZi.png">
+<img src="https://i.imgur.com/yLqdEA1.png" alt="imagem do projeto">
 
 ## 🪒 Ferramentas
 
