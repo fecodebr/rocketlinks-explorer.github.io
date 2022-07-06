@@ -3,9 +3,10 @@
 ##### **Mídias Sociais** 
 
 
-
-<img align="center" src="https://i.imgur.com/yLqdEA1.png" alt="imagem do projeto">
-
+<div align="center">
+<img src="https://i.imgur.com/yLqdEA1.png" alt="imagem do projeto">
+<center>
+  
 ## 🪒 Ferramentas
 
 - HTML
