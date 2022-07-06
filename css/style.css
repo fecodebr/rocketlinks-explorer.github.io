@@ -6,12 +6,14 @@
 
 a {
   text-decoration: none;
+
 }
 
 body {
-  background: #c31432;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
   font-family: 'Roboto', sans-serif;
 }
@@ -31,12 +33,12 @@ img.avatar {
   width: 100px;
   height: 100px;
   padding: 3.7px;
-  border: #4263EB solid 4px;
+  border: #1c67bd solid 4px;
 }
 
 h1 {
   font-size: 32px;
-  color: #00082F;
+  color: #ffff;
   margin-top: 24px;
   margin-bottom: 8px;
 }
@@ -44,7 +46,7 @@ h1 {
 .username {
   font-family: 'Roboto Mono', monospace;
   font-weight: 400;
-  color: #00082F;
+  color: #ffff;
   opacity: 0.8;
   font-size: 18px;
 }
@@ -78,7 +80,7 @@ ul li a:hover {
 footer {
   font-weight: 500;
   font-size: 12px;
-  color: #00082F;
+  color: #ffff;
   opacity: 0.6;
   transition: opacity 400ms;
 }
@@ -89,4 +91,9 @@ footer:hover {
 
 footer a{
   color: #00082F;
+}
+
+footer a:hover {
+  color: #a146dd;
+
 }
