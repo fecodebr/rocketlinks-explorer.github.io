@@ -23,7 +23,7 @@
 
   
 
-## © Créditos e projeto
+## © Projeto ministrado por:
 
   **[Maratona Explorer 2.0](https://lp.rocketseat.com.br/inscricao/maratona-explorer)** realizada pela **[@Rocketseat 🌠](https://github.com/Rocketseat)**.
 
